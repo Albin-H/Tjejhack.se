@@ -1,3 +1,4 @@
+/* CSS till hemsidan */
 body{
 	font-family: 'Work Sans', sans-serif;
 }
@@ -78,8 +79,26 @@ body{
 }
 .bildgalleri{
 	background-color: lightgray;
-	width: 100%;
+	width: 80%;
+	margin: auto;
 }
 .footer{
 	background-color: #336699;
+	padding: 40px;
+}
+.kontaktbild{
+	width: 200px
+}
+
+/*CSS till kalendern*/
+.dag{
+	padding: 5px;
+	background-color: white;
+	outline: 2px lightgray solid;
+}
+.kalenderheader{
+	background-color: #FFABAB; 
+}
+.dagen{
+	background-color: #FFABAB;
 }
