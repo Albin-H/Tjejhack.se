@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script type="text/javascript" src="skript.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Tjejhack.se/Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="sectionmargin">
+        <h1 class="display-3">Programmerings Quiz</h1>
+        <br>
+        <div id="bild" class="bakgrund">
+          <img id="bild" src="Bilder\Fraga1.PNG" class="storlek">
+          <h6 id="test">Test</h6>
+        </div>
+        <div>
+          <br>
+          <h3 id="svar">Fråga 1</h3>
+          <h4 id="fraga">Programmeringsspråket Python har fått sitt namn ifrån... </h4>
+          <br>
+          <br>
+          <form id="quiz" onsubmit="ladda();return false">
+            <div id="alternativ">
+                <input type="radio" name="fråga" value="1">Ormen <br>
+                <input type="radio" name="fråga" value="2">Monty Python <br>
+                <input type="radio" name="fråga" value="3">Lukten <br><br>
+            </div>
+              <input class="btn btn-primary" id="knapp" type="submit" value="Nästa" onclick="resultat(), svar()">
+            <br>
+            <br>
+            <h5 id="avsluta"></h5>
+            <h5 id="resultat"></h5>
+         </div>   
+        </form>
+      </section> 
+    </div>
+    <br>
+    <br>
+
+    <div class="footer">
+    	<div class="card-body">
+    		Quiz skapat av Albin Haraldsson på Teknikprogrammet
+    	</div>
+    </div>
+    </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
