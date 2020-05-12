@@ -1,7 +1,12 @@
 /* CSS till hemsidan */
+:root {
+	 --huvudfärg: #E80C94 ;
+}
+
 body{
 	font-family: 'Work Sans', sans-serif;
 }
+
 .centrera{
 	margin: auto;
 	margin-right: 34px; 
@@ -13,8 +18,8 @@ body{
 	margin: auto;
 	height: 40%;
 	padding: 40px;
-	background-color: #336699;
 	background: rgba(76, 175, 80, 0.5);
+	color: white;
 }
 .rubrik{
 	text-align: center;
@@ -31,12 +36,14 @@ body{
 	background-color: #336699;
 	color: #336699;
 }
-.sektion1{
+.sektion{
 	padding: 40px;
+	margin: 40px;
 }
 .huvudrubrik{
 	margin: auto;
 	padding-right: 910px;
+	color: var(--huvudfärg);
 }
 .galleri{
 	border: gray solid 5px;
@@ -49,18 +56,26 @@ body{
 	background-color: #336699;
 }
 .information{
-	background-color: #336699;
-	padding: 20px;
+	background-color: var(--huvudfärg);
+	padding: 60px;
 }
 .kort{
 	margin: 40px;
+	width: 200px;
+	outline: 2px gray solid;
+}
+.kortbild{
+	width: inherit;
 }
 .lar-dig-mer{
 	padding: 20px;
 }
 .lista{	
-	padding: 20px;
-	background-color: red;
+	padding: 40px;
+	margin: 20px;
+	margin-left: 40px;
+	background-color: var(--huvudfärg);
+	border-radius: 45px; 
 	height: 600px;
 }
 .kodspel{
@@ -69,7 +84,6 @@ body{
 }
 .spelet{
 	width: 100%;
-	height: 600px;
 	background-color: lightblue;
 }
 .quiz{
@@ -79,11 +93,21 @@ body{
 	background-color: pink;	
 	width: 100%;
 	height: 60%;
+	padding: 20px;
 }
 .bildgalleri{
-	background-color: lightgray;
+	background-color: var(--huvudfärg);
 	width: 80%;
 	margin: auto;
+	border-radius: 55px;
+	text-align: center;
+}
+.bildgalleri2{
+	background-color: var(--huvudfärg);
+	width: 100%;
+	margin: auto;
+	border-radius: 55px;
+	padding: 40px;
 }
 .footer{
 	background-color: #336699;
