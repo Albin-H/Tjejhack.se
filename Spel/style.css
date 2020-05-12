@@ -1,0 +1,13 @@
+.spelyta{
+	width: 	1280px;
+	height: 720px;
+}
+
+.bakgrund{
+	border:1px solid #d3d3d3;
+    background-image: url(Spel.png);
+	background-size: cover;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
