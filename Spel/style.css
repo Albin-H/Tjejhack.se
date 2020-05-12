@@ -11,3 +11,16 @@
     width: 100%;
     height: 100%;
 }
+.container{
+  margin-top: 200px;
+  background-image: url(Steg13.png);
+}
+.vinst{
+  width: 360px;
+  background: rgba(76, 175, 80);
+  color: white;
+  text-align: center;
+  padding: 12px;
+  position: absolute;
+  margin-left: 360px;
+}
