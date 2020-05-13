@@ -1,131 +1,48 @@
-/* CSS till hemsidan */
-:root {
-	 --huvudfärg: #E80C94 ;
-}
-
-body{
-	font-family: 'Work Sans', sans-serif;
-}
-
-.centrera{
-	margin: auto;
-	margin-right: 34px; 
-}
-.logga{
-	width: 50px;
-}
-.ruta{
-	margin: auto;
-	height: 40%;
-	padding: 40px;
-	background: rgba(76, 175, 80, 0.5);
-	color: white;
-}
 .rubrik{
 	text-align: center;
-	padding-top: 40px;
 }
-.bakgrund{
-	background-image: url('Bilder/Huvudbild.PNG');
-	background-size: cover;
-	padding-top: 10%;
-	padding-bottom: 10%;
-}
-.rand{
-	height: 50px
-	background-color: #336699;
-	color: #336699;
-}
-.sektion{
-	padding: 40px;
+.spelyta{
+	width: 	1280px;
+	height: 720px;
 	margin: 40px;
 }
-.huvudrubrik{
-	margin: auto;
-	padding-right: 910px;
-	color: var(--huvudfärg);
-}
-.galleri{
-	border: gray solid 5px;
-	background-color: lightgray;
-}
-.bildstorlek{
-	height: 193px;
-}
-.knapp{
-	background-color: #336699;
-}
-.information{
-	background-color: var(--huvudfärg);
-	padding: 60px;
-}
-.kort{
-	margin: 40px;
-	width: 200px;
-	outline: 2px gray solid;
-}
-.kortbild{
-	width: inherit;
-}
-.lar-dig-mer{
+.knappar{
 	padding: 20px;
-}
-.lista{	
-	padding: 40px;
-	margin: 20px;
-	margin-left: 40px;
-	background-color: var(--huvudfärg);
-	border-radius: 45px; 
-	height: 600px;
-}
-.kodspel{
-	padding: 20px;
-	background-color: #336699;
-}
-.spelet{
-	width: 100%;
-	background-color: lightblue;
-}
-.quiz{
-	background-image: url(https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-	padding: 40px;
-	margin: auto;
-	background-color: pink;	
-	width: 100%;
-	height: 60%;
-	padding: 20px;
-}
-.bildgalleri{
-	background-color: var(--huvudfärg);
-	width: 80%;
-	margin: auto;
-	border-radius: 55px;
 	text-align: center;
 }
-.bildgalleri2{
-	background-color: var(--huvudfärg);
-	width: 100%;
-	margin: auto;
-	border-radius: 55px;
-	padding: 40px;
+.bakgrund2{
+	border:1px solid #d3d3d3;
+    background-image: url(Steg13.png);
+	background-size: cover;
+    margin: auto;
+    width: 100%;
+    height: 100%;
 }
-.footer{
-	background-color: #336699;
-	padding: 40px;
+.bakgrund{
+	border:1px solid #d3d3d3;
+    background-image: url(Spel.png);
+	background-size: cover;
+    margin: auto;
+    width: 100%;
+    height: 100%;
 }
-.kontaktbild{
-	width: 200px
+.vinst{
+  margin-top: 300px; 
+  width: 360px;
+  background: rgba(76, 175, 80);
+  color: white;
+  text-align: center;
+  padding: 12px;
+  position: absolute;
+  margin-left: 360px;
 }
-
-/*CSS till kalendern*/
-.dag{
-	padding: 5px;
-	background-color: white;
-	outline: 2px lightgray solid;
-}
-.kalenderheader{
-	background-color: #FFABAB; 
-}
-.dagen{
-	background-color: #FFABAB;
+.förlust{
+  margin-top: 300px; 
+  width: 360px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  position: absolute;
+  margin-left: 360px;
 }
