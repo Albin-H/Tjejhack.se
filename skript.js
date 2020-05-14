@@ -18,79 +18,74 @@ function fel(){
 
 const svarsalternativ = [
 	{
-		alternativ: `<div class="knappar" id="alternativen">
-					 <button class="btn btn-primary" onclick="fel()"> Aa_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Bb_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Cc_ </button>
-					 </div>`
-	},
-	{
 		alternativ: `<button class="btn btn-primary" onclick="fel()"> Aa_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Bb_ </button>
+					 <button class="btn btn-primary" onclick="rätt(), nästa()"> Bb_ </button>
 					 <button class="btn btn-primary" onclick="fel()"> Cc_ </button>`
 	},
 	{
-		alternativ: `<button class="btn btn-primary" onclick="fel()"> Aa_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Bb_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Cc_ </button>`
+		alternativ: `<button class="btn btn-primary" onclick="fel()"> fd(50) rt(90) </button>
+					 <button class="btn btn-primary" onclick="rätt(), nästa()"> rt(90) fd(50) </button>
+					 <button class="btn btn-primary" onclick="fel()"> fd(50) </button>`
 	},
 	{
-		alternativ: `<button class="btn btn-primary" onclick="fel()"> Aa_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Bb_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Cc_ </button>`
+		alternativ: `<button class="btn btn-primary" onclick="fel()"> fd(70) lt(90) </button>
+					 <button class="btn btn-primary" onclick="fel()"> rt(90) fd(70) </button>
+					 <button class="btn btn-primary" onclick="rätt(), nästa()"> lt(90) fd(70) </button>`
 	},
 	{
-		alternativ: `<button class="btn btn-primary" onclick="fel()"> Aa_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Bb_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Cc_ </button>`
+		alternativ: `<button class="btn btn-primary" onclick="fel()"> rt(90) </button>
+					 <button class="btn btn-primary" onclick="rätt(), nästa()"> rt(90) fd(150)</button>
+					 <button class="btn btn-primary" onclick="fel()"> lt(150) </button>`
 	},
 	{
-		alternativ: `<button class="btn btn-primary" onclick="fel()"> Aa_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Bb_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Cc_ </button>`
+		alternativ: `<button class="btn btn-primary" onclick="fel()"> fd(70) </button>
+					 <button class="btn btn-primary" onclick="rätt(), nästa()"> lt(90) fd(70) </button>
+					 <button class="btn btn-primary" onclick="fel()"> lt(70) </button>`
 	},
 	{
-		alternativ: `<button class="btn btn-primary" onclick="fel()"> Aa_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Bb_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Cc_ </button>`
+		alternativ: `<button class="btn btn-primary" onclick="rätt(), nästa()"> rt(90) fd(50) </button>
+					 <button class="btn btn-primary" onclick="fel()"> rt(90); fd(50) </button>
+					 <button class="btn btn-primary" onclick="fel()"> lt(90); fd(50) </button>`
 	},
 	{
-		alternativ: `<button class="btn btn-primary" onclick="fel()"> Aa_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Bb_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Cc_ </button>`
+		alternativ: `<button class="btn btn-primary" onclick="fel()"> lt(90 fd(70)) </button>
+					 <button class="btn btn-primary" onclick="rätt(), nästa()"> lt(90) fd(70) </button>
+					 <button class="btn btn-primary" onclick="fel()"> lt(90) go(70) </button>`
 	},
 	{
-		alternativ: `<button class="btn btn-primary" onclick="fel()"> Aa_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Bb_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Cc_ </button>`
+		alternativ: `<button class="btn btn-primary" onclick="fel()"> up(200) </button>
+					 <button class="btn btn-primary" onclick="fel()"> lt(90) up(200) </button>
+					 <button class="btn btn-primary" onclick="rätt(), nästa()"> lt(90) fd(200) </button>`
 	},
 	{
-		alternativ: `<button class="btn btn-primary" onclick="fel()"> Aa_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Bb_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Cc_ </button>`
+		alternativ: `<button class="btn btn-primary" onclick="rätt(), nästa()"> rt(90) fd(60) </button>
+					 <button class="btn btn-primary" onclick="fel()"> r(90) fd(60) </button>
+					 <button class="btn btn-primary" onclick="fel()"> rt90 fd60 </button>`
 	},
 	{
-		alternativ: `<button class="btn btn-primary" onclick="fel()"> Aa_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Bb_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Cc_ </button>`
+		alternativ: `<button class="btn btn-primary" onclick="fel()"> >>100 </button>
+					 <button class="btn btn-primary" onclick="rätt(), nästa()"> rt(90) fd(100) </button>
+					 <button class="btn btn-primary" onclick="fel()"> ^100>> </button>`
 	},
 	{
-		alternativ: `<button class="btn btn-primary" onclick="fel()"> Aa_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Bb_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Cc_ </button>`
+		alternativ: `<button class="btn btn-primary" onclick="fel()"> turtlelt(90, 150) </button>
+					 <button class="btn btn-primary" onclick="fel()"> turtlefd(90, 150) </button>
+					 <button class="btn btn-primary" onclick="rätt(), nästa()"> lt(90) fd(150) </button>`
 	},
 	{
-		alternativ: `<button class="btn btn-primary" onclick="fel()"> Aa_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Bb_ </button>
-					 <button class="btn btn-primary" onclick="fel()"> Cc_ </button>`
+		alternativ: `<button class="btn btn-primary" onclick="fel()"> rt(100) fd(70) </button>
+					 <button class="btn btn-primary" onclick="rätt(), nästa()"> rt(90) fd(70) </button>
+					 <button class="btn btn-primary" onclick="fel()"> lt(90) fd(70) </button>`
+	},
+	{
+		alternativ: `<button class="btn btn-primary" onclick="rätt(), nästa()"> rt(270) fd(50) </button>
+					 <button class="btn btn-primary" onclick="fel()"> lt(180) fd(50) </button>
+					 <button class="btn btn-primary" onclick="fel()"> rt(90) fd(50) </button>`
 	},
 ];
 
 function nästa(){
-	document.querySelector("#test").innerHTML = svarsalternativ[nummer-1].alternativ;
-}
-function test(){
-	console.log(svarsalternativ[nummer-1].alternativ);
+	document.querySelector("#alternativen").innerHTML = svarsalternativ[nummer-1].alternativ;
 }
 
 /* let nummer = 1; 
