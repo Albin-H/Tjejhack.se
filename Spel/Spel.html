@@ -10,22 +10,42 @@
 </head>
 	<body>
 		<div class="spelyta" id="spelyta">
+			<h1 class="rubrik">Rubrik</h1>
+			<div class="bakgrund" id="bakgrund">
+			</div>
+			<div id="test">
+				<div class="knappar" id="alternativen"> 
+					<button class="btn btn-primary" onclick="rätt(), nästa()"> fd(50) </button>
+					<button class="btn btn-primary" onclick="fel()"> fd(200) </button>
+					<button class="btn btn-primary" onclick="fel()"> bk(50) </button>
+				</div>
+			</div>
+		</div>
+
+
+<!-- 	
+	<div class="spelyta" id="spelyta">
 			<div class="bakgrund" id="bakgrund">
 				<h1>Spel</h1>
 			</div>
-			<form id="spel" onsubmit="ladda();return false">
-				<div class="knappar" id="svar"> 
-					<input type="submit" name="alternativ" value="fd(50)">
-					<input type="submit" name="alternativ" value="fd(200)">
-					<input type="submit" name="alternativ" value="down(50)">
+			<form id="spel" onsubmit="kollaSvar();return false">
+				<div class="knappar" id="alternativen"> 
+					<input type="radio" name="alternativ" class="btn btn-primary" value="fd(50)" id="svar">
+					<input type="radio" name="alternativ" value="fd(200)" id="svar">
+					<input type="radio" name="alternativ" value="down(50)" id="svar">
 				</div>
+				<input class="btn btn-primary" type="submit">
 			</form>
 			<h1 id="test">Test</h1>
 			<div class="knapp" id="D"></div>
 		</div>
-
-		<button onclick="myFunction()"></button>
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<button class="btn btn-primary" onclick="test()">Test</button>
+-->
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
