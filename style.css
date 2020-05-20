@@ -1,4 +1,4 @@
-/* CSS till hemsidan */
+/* Global CSS */
 :root {
 	 --huvudfärg: #E80C94 ;
 }
@@ -7,12 +7,15 @@ body{
 	font-family: 'Work Sans', sans-serif;
 }
 
+/* CSS till hemsidan */
 .centrera{
 	margin: auto;
-	margin-right: 34px; 
+	width: 10%;
+    padding: 10px;
 }
 .logga{
 	width: 50px;
+
 }
 .ruta{
 	margin: auto;
@@ -54,6 +57,7 @@ body{
 }
 .knapp{
 	background-color: #336699;
+	color: white;
 }
 .information{
 	background-color: var(--huvudfärg);
@@ -127,7 +131,7 @@ body{
 .kalender{
 	background-color: white;
 	border-radius: 	10px;
-	width: 	60px;
+	margin-right: 180px ; 
 }
 .dag{
 	padding: 5px;
@@ -144,4 +148,5 @@ body{
 
 .knappeffekt:hover{
 	background-color: #009fff;
+	color: white;
 }

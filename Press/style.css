@@ -1,0 +1,51 @@
+/* Global CSS */
+:root {
+	 --huvudfärg: #E80C94 ;
+}
+
+body{
+	font-family: 'Work Sans', sans-serif;
+}
+
+iframe{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+/* CSS till Press */
+
+.logga{
+	width: 50px;
+
+}
+.huvudrubrik{
+	margin: auto;
+	padding-right: 910px;
+	color: var(--huvudfärg);
+}
+.knapp{
+	background-color: #336699;
+	color: white;
+}
+.bakgrund{
+	background-image: url(https://images.unsplash.com/photo-1492446190781-58ac4285911d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1594&q=80);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+.video{
+	padding: 80px;
+}
+.text{
+	color: white;
+}
+.videohållare{
+	position: relative;
+	padding-bottom: 30%;
+}
+.citat{
+	font-style: italic;
+}
